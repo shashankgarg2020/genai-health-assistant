@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>GenAI NHS Assistant</title>
+</head>
+<body>
+  <h2>🩺 GenAI NHS Assistant</h2>
+  <form id="queryForm">
+    <input type="text" id="queryInput" placeholder="Ask your question..." style="width:300px;">
+    <button type="submit">Submit</button>
+  </form>
+  <div id="responseBox" style="margin-top: 20px;"></div>
+
+  <script>
+    const form = document.getElementById("queryForm");
+    const input = document.getElementById("queryInput");
+    const responseBox = document.getElementById("responseBox");
+
+    form.addEventListener("submit", async (e) => {
+      e.preventDefault();
+      const query = input.value;
+      const response = await fetch("/ask", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ query })
+      });
+      const data = await response.json();
+      responseBox.innerHTML = `<strong>Answer:</strong> ${data.answer}<br><br><strong>Sources:</strong><br>${data.sources.join('<br>')}`;
+    });
+  </script>
+</body>
+</html>
