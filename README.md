@@ -104,9 +104,10 @@ graph TD
 ## 👤 Author
 
 **Shashank Garg**  
-📍 Data Scientist | GenAI Developer | Healthcare AI  
+📍 Data Scientist | GenAI Developer | AI Developer
 🔗 [LinkedIn](https://www.linkedin.com/in/shashankgarg2020/)  
-💻 [GitHub](https://github.com/your-username)
+💻 [GitHub](https://github.com/shashankgarg2020)
+💻 [email](shashankgarg2020@gmail.com)
 
 ---
 
