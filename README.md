@@ -1,5 +1,5 @@
 
-# 🩺 GenAI Healthcare Assistant (NHS Q&A Prototype)
+# 🩺 GenAI Healthcare Assistant (Based on official NHS documents)
 
 A fast, accurate, and hallucination-resistant **GenAI assistant** built with Retrieval-Augmented Generation (RAG) to answer health-related questions using official NHS documents. The assistant uses **semantic chunking**, **FAISS vector search**, and **OpenAI's GPT-4o**, with guardrails to ensure context-grounded answers.
 
@@ -107,7 +107,7 @@ graph TD
 📍 Data Scientist | GenAI Developer | AI Developer
 🔗 [LinkedIn](https://www.linkedin.com/in/shashankgarg2020/)  
 💻 [GitHub](https://github.com/shashankgarg2020)
-💻 [email](shashankgarg2020@gmail.com)
+
 
 ---
 
