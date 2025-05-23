@@ -1,7 +1,7 @@
 
 # 🩺 GenAI Healthcare Assistant (Based on official NHS documents)
 
-RAG Healthcare Assistant
+## RAG Healthcare Assistant
 This project is a Retrieval-Augmented Generation (RAG) based AI assistant designed to answer user queries using real NHS clinical documents. It uses OpenAI’s text-embedding-3-small model to generate embeddings, FAISS for vector search, and GPT-4o for response generation. Built using FastAPI, the system allows chat-like interaction through LangChain’s ConversationalRetrievalChain. It includes topic filtering (e.g. asthma, diabetes) and safety disclaimers to ensure responsible use in healthcare settings. The solution demonstrates how GenAI can improve access to medical knowledge while prioritising user safety and accuracy.
 
 ---
